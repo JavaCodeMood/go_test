@@ -54,6 +54,6 @@ func sampleReadFile(){
 
 func main(){
 	//sampleReadFromString()
-	//sampleReadStdin()
-	sampleReadFile()
+	sampleReadStdin()
+	//sampleReadFile()
 }

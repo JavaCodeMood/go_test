@@ -25,7 +25,7 @@ func ReadFrom(reader io.Reader,num int)([]byte,error){
 
 //字符串读取器
 func sampleReadFromString(){
-	data,_ :=ReadFrom(strings.NewReader("from string"),12)
+	data,_ :=ReadFrom(strings.NewReader("hello golang"),12)
 
 	fmt.Println(data)
 }
